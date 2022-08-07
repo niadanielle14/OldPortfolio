@@ -38,7 +38,7 @@
     --pink: #ff3258;
     --white: #f0e9f2;
     --white-1: #e5e5e6da;
-    --beige: rgba(124, 124, 120, 0.85);
+    --white-2: #F3F3F3;
 
 
     --container-max-width: 1180px;
@@ -71,9 +71,11 @@ body {
     font-size: var(--font-size-small);
     font-family: var(--font-stack);
     font-weight: 400;
-    color: var(--white-1);
+    /*changed to black*/
+    color: var(--black);
     line-height: var(--line-height-normal);
-    background: var(--black);
+    /*changed to white*/
+    background: var(--white-2);
     overflow-x: hidden;
 }
 
@@ -126,7 +128,8 @@ h3 {
     font-family: 'Jost', sans-serif;
     font-weight: 400;
     line-height: var(--line-height-small);
-    color: var(--white);
+    /*changed to black*/
+    color: var(--black);
 }
 
 .heading-primary {
@@ -405,8 +408,8 @@ body:not(.user-is-tabbing) a:focus {
 /* --------------------------------------- */
 
 .header {
-    background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
-        url('./images/header.jpg');
+    /*background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), */
+    background: url('./images/white-minimalist-background-portfolio.png');
     height: 100vh;
     background-size: cover;
     background-position: center;
